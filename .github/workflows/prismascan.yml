@@ -19,7 +19,7 @@ jobs:
           file: pom.xml
           output_format: cli, sarif
           output_file_path: results/results.sarif
-          use_enforcement_rules: false
+          use_enforcement_rules: true
       
       # # # Runs Docker image scan
       # - name: Twistlock Image Scan
