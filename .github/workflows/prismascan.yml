@@ -16,10 +16,14 @@ jobs:
           PRISMA_API_URL: https://api0.prismacloud.io
         with:
           api-key: ${{ secrets.BC_API_KEY }}
-          directory: ./
+          directory: ./xmls
           output_format: cli
           # output_file_path: results/
           #use_enforcement_rules: true
+
+      - name: Twistlock Image Sandbox Scan
+        run: |
+          checkov --version
       
       # # # Runs Docker image scan
       # - name: Twistlock Image Scan
