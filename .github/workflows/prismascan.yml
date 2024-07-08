@@ -16,9 +16,9 @@ jobs:
           PRISMA_API_URL: https://api0.prismacloud.io
         with:
           api-key: ${{ secrets.BC_API_KEY }}
-          file: xmls/pom.xml
+          directory: ./
           output_format: cli,sarif
-          output_file_path: results/
+          # output_file_path: results/
           use_enforcement_rules: true
       
       # # # Runs Docker image scan
