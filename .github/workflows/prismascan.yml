@@ -17,7 +17,7 @@ jobs:
         with:
           api-key: ${{ secrets.BC_API_KEY }}
           directory: ./
-          output_format: cli,sarif
+          output_format: cli
           # output_file_path: results/
           use_enforcement_rules: true
       
