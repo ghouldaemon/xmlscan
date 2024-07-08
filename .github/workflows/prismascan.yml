@@ -18,6 +18,7 @@ jobs:
           api-key: ${{ secrets.BC_API_KEY }}
           directory: ./xmls
           output_format: cli
+          log_level: DEBUG
           # output_file_path: results/
           #use_enforcement_rules: true
 
