@@ -16,7 +16,7 @@ jobs:
           PRISMA_API_URL: https://api0.prismacloud.io
         with:
           api-key: ${{ secrets.BC_API_KEY }}
-          directory: ./xmls
+          directory: pom.xml
           output_format: cli
           log_level: DEBUG
           # output_file_path: results/
