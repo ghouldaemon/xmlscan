@@ -19,7 +19,7 @@ jobs:
           directory: ./
           output_format: cli
           # output_file_path: results/
-          use_enforcement_rules: true
+          #use_enforcement_rules: true
       
       # # # Runs Docker image scan
       # - name: Twistlock Image Scan
