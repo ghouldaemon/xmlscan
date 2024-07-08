@@ -21,9 +21,9 @@ jobs:
           # output_file_path: results/
           #use_enforcement_rules: true
 
-      - name: Checkov Version
-        run: |
-          checkov --version
+     # - name: Checkov Version
+    #    run: |
+        #  checkov --version
       
       # # # Runs Docker image scan
       # - name: Twistlock Image Scan
