@@ -18,7 +18,6 @@ jobs:
           api-key: ${{ secrets.BC_API_KEY }}
           file: pom.xml
           output_format: cli,sarif,csv,junitxml
-          output_file_path: results/results.sarif
           use_enforcement_rules: true
       
       # # # Runs Docker image scan
